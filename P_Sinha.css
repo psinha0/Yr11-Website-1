@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+* { box-sizing: border-box }
+
+html {
+	height: 100vh;
+  width: 100vw;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+
+}
+
+#h1 {
+	text-align: center;
+	color: #5AC161;
+}
+
+#p1 {
+	text-align: center;
+	font-size: x-large;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #ECD632;
+}
+
+.leftpanel {
+	border: solid 2px #BEB14A;
+	background-color: #9F684A;
+	width: 24%;
+	height: 96vh;
+	float: left;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+#rightpanel {
+	background-image: url(https://i.imgur.com/0ExwpIb.png);
+  background-position: center;
+  background-size: cover;
+	vertical-align: top;
+	width: 74%;
+	height: 80vh;
+	float: left;
+	margin-top: 1%;
+	margin-right: 1%;
+	border: solid 2px #BEB14A;
+}
+
+.buttonpanel {
+	background-color: #5AC161;
+	margin: auto;
+	width: 74%;
+	height: 16vh;
+	float: left;
+	text-align: center;
+	align-items: center;
+	margin-right: 1%;
+	border: solid 2px #BEB14A;
+}
+
+.button {
+  background-color: #ECD632;
+  border: solid 6px #BEB14A;
+  color: white;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 15px 20px;
+  cursor: url(http://www.rw-designer.com/cursor-view/64201.png), pointer;
+}
